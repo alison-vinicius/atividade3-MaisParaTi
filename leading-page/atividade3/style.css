@@ -75,6 +75,10 @@ th, td{
     border: 1px solid #ccc;
 }
 
+th{
+    background-color: #44b694;
+}
+
 tr:hover{
     background-color: #c6c5dd;
 }
@@ -101,12 +105,16 @@ aside a{
 }
 
 button{
-    padding: 15px;
+   
    
     background-color: #d6eef1;
     cursor: pointer;
     border: none;
     border-radius: 10px;
+
+    width: 150px;  /* Largura fixa */
+    height: 50px;  /* Altura fixa */
+    padding: 10px;
 
 }
 
@@ -131,6 +139,13 @@ footer{
 p{
     text-align: center;
     margin: 10px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+
 }
 
 
